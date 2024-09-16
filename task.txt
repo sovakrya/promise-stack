@@ -12,3 +12,4 @@ promiseStack([
   () => asyncTimeout(1000).then(() => console.log(3)),
   () => asyncTimeout(3000).then(() => console.log(4)),
 ]);
+
